@@ -12,10 +12,11 @@
   margin-right: auto;
   padding: 210px 30px;
   flex-grow: 1;
-  background-image: var(--hero-gradient), url(../../images/hero/hero-mob-1x.jpg);
+  background-image: var(--hero-gradient),
+    url(..//../images/hero/hero-mob-1x.jpg);
   @include retina {
     background-image: var(--hero-gradient),
-      url(../../images/hero/hero-mob-2x.jpg);
+      url(..//../images/hero/hero-mob-2x.jpg);
   }
 }
 

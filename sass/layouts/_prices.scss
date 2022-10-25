@@ -13,10 +13,10 @@
   padding: 84px 31px;
   flex-grow: 1;
   background-image: var(--hero-gradient),
-    url(../../images/prices/prices-mob-1x.png);
+    url(..//../images/prices/prices-mob-1x.png);
   @include retina {
     background-image: var(--hero-gradient),
-      url(../../images/prices/prices-mob-2x.png);
+      url(..//../images/prices/prices-mob-2x.png);
   }
 }
 
