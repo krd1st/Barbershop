@@ -33,48 +33,74 @@
 
 .prices__pre-title::before {
   content: "";
-  width: 60px;
+  width: 15px;
   height: 1px;
   background-color: currentColor;
-  margin-right: 20px;
+  margin-right: 10px;
+  @media screen and (min-width: 375px) {
+    width: 60px;
+    margin-right: 20px;
+  }
 }
 
 .prices__title {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 24px;
   line-height: 47px;
   letter-spacing: 0.05em;
   color: #ffffff;
-  margin-bottom: 44px;
+  margin-bottom: 20px;
+  @media screen and (min-width: "370px") {
+    font-size: 30px;
+    margin-bottom: 44px;
+  }
+  @media screen and (min-width: "479px") {
+    font-size: 40px;
+  }
 }
 
 .prices__wrap {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 418px;
-  height: 360px;
-  padding: 30px 20px 30px 40px;
+  max-width: 418px;
+  padding: 10px;
   margin-bottom: 44px;
   background-image: linear-gradient(
     180deg,
     #171a24 0%,
     rgba(23, 26, 36, 0.2) 100%
   );
+  @media screen and (min-width: 420px) {
+    padding: 30px 20px 30px 40px;
+  }
+}
+
+.prices-left__list {
+  margin-bottom: 20px;
 }
 
 .prices__item {
-  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.prices__item:last-child {
+  margin-bottom: 0;
 }
 
 .prices__list-text {
-  font-size: 14px;
+  font-size: 10px;
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #9da4bd;
+  @media screen and (min-width: 360px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 420px) {
+    font-size: 14px;
+  }
 }
 
 .prices__button {
@@ -91,4 +117,12 @@
   border-radius: 25px;
   background-color: transparent;
   margin: 0 auto;
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #ff6c00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
