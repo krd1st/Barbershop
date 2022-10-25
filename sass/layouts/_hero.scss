@@ -1,0 +1,66 @@
+.hero .container {
+  padding: 0;
+}
+
+.hero__overlay {
+  background-color: #303030;
+  max-width: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 210px 30px;
+  flex-grow: 1;
+  background-image: var(--hero-gradient), url(../../images/hero/hero-mob-1x.jpg);
+  @include retina {
+    background-image: var(--hero-gradient),
+      url(../../images/hero/hero-mob-2x.jpg);
+  }
+}
+
+.hero__pre-title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
+}
+
+.hero__pre-title::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: currentColor;
+  margin-right: 20px;
+  @include mobile {
+    width: 60px;
+  }
+}
+
+.hero__title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 20px;
+  @media screen and (min-width: 360px) {
+    font-size: 48px;
+  }
+}
+
+.hero__after-title {
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  @media screen and (min-width: 380px) {
+    font-size: 16px;
+  }
+}

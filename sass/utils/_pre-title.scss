@@ -1,0 +1,11 @@
+.pre-title {
+  display: flex;
+  align-items: center;
+  &::before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background: #303030;
+  }
+}

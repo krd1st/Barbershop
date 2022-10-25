@@ -1,0 +1,48 @@
+.menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  & .menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 20px;
+    @media screen and (min-width: 382px) {
+      padding-left: 40px;
+    }
+  }
+  &.is-open {
+    display: block;
+  }
+  &-button {
+    display: inline-flex;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+    margin-left: auto;
+  }
+  &-button .menu-icon-cross {
+    display: none;
+  }
+  &-button.is-open .menu-icon-cross {
+    display: block;
+  }
+  &-button.is-open .menu-icon-burger {
+    display: none;
+  }
+  &-icon-cross {
+    fill: currentColor;
+  }
+}
+
+// .menu-button {
+//   background-color: transparent;
+//   border: none;
+// }

@@ -1,0 +1,120 @@
+.contact-us .container {
+  padding: 0;
+}
+
+.contact-us .contact-us__booking {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: #191c26;
+}
+
+.contact-us__booking-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.contact-us__button {
+  display: block;
+  width: 160px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+// ----------------------------------------------------------------------------------------------------------------
+
+.contact-us__contacts {
+  background-color: #191c26;
+  max-width: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 84px 127px 84px 31px;
+  flex-grow: 1;
+  background-image: url(../../images/contact-us/contact-us-mob-1x.png);
+  @include retina {
+    background-image: url(../../images/contact-us/contact-us-mob-2x.png);
+  }
+}
+
+.contact-us__contacts-title {
+  width: 418px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.contact-us__contacts-address {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  margin-bottom: 20px;
+}
+
+.contact-us__contacts-tel {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+  margin-bottom: 20px;
+}
+
+.contact-us__contacts-mail {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #9da4bd;
+  margin-bottom: 44px;
+}
+
+.contact-us__timetable {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contact-us__timetable::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.4);
+  margin-right: 20px;
+}
+
+.contact-us__working-hours {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
