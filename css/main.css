@@ -731,14 +731,13 @@ img {
   gap: 30px;
 }
 
-.contact-us .container {
-  padding: 0;
+.contact-us {
+  background-color: #191c26;
 }
 
 .contact-us .contact-us__booking {
   padding-top: 84px;
   padding-bottom: 84px;
-  background-color: #191c26;
 }
 
 .contact-us__booking-title {
@@ -749,11 +748,42 @@ img {
   text-align: center;
   letter-spacing: 0.05em;
   color: #ffffff;
+  margin-bottom: 44px;
 }
 @media screen and (min-width: 345px) {
   .contact-us__booking-title {
     font-size: 42px;
   }
+}
+
+.input__wrap {
+  width: 100%;
+  margin-bottom: 44px;
+}
+
+.input-wrap__label {
+  display: block;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.input-wrap__field {
+  width: 100%;
+  height: 30px;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .contact-us__button {

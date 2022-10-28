@@ -451,7 +451,7 @@
           <h2 class="contact-us__booking-title">Online-booking</h2>
           <form action="" class="contact-us__form">
             <div class="input__wrap">
-              <label for="user-name" class="input-wrap__label">NAME</label>
+              <label for="user-name" class="input-wrap__label">NAME*</label>
               <input
                 type="text"
                 class="input-wrap__field"
@@ -460,7 +460,7 @@
               />
             </div>
             <div class="input__wrap">
-              <label for="user-name" class="input-wrap__label">PHONE</label>
+              <label for="user-tel" class="input-wrap__label">PHONE*</label>
               <input
                 type="text"
                 class="input-wrap__field"
@@ -468,8 +468,20 @@
                 id="user-name"
               />
             </div>
+            <div class="input__wrap">
+              <label for="user-comment" class="input-wrap__label"
+                >Коментар</label
+              >
+              <textarea
+                class="input-wrap__field"
+                name="user-comment"
+                id="user-comment"
+              ></textarea>
+            </div>
+            <button class="contact-us__button pointer" type="submit">
+              SEND
+            </button>
           </form>
-          <button class="contact-us__button pointer" type="submit">SEND</button>
         </div>
         <div class="contact-us__contacts">
           <h2 class="contact-us__contacts-title">Contacts</h2>
