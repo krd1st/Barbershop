@@ -111,7 +111,7 @@ img {
 .menu .menu-container {
   display: flex;
   flex-direction: column;
-  width: 337px;
+  max-width: 337px;
   height: 100vh;
   padding-top: 118px;
   padding-bottom: 227px;
@@ -735,12 +735,12 @@ img {
   background-color: #191c26;
 }
 
-.contact-us .contact-us__booking {
+.contact-us .booking {
   padding-top: 84px;
   padding-bottom: 84px;
 }
 
-.contact-us__booking-title {
+.booking__title {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 36px;
@@ -751,7 +751,7 @@ img {
   margin-bottom: 44px;
 }
 @media screen and (min-width: 345px) {
-  .contact-us__booking-title {
+  .booking__title {
     font-size: 42px;
   }
 }
@@ -786,7 +786,7 @@ img {
   border-right: none;
 }
 
-.contact-us__button {
+.booking__button {
   display: block;
   width: 160px;
   height: 40px;
@@ -804,12 +804,12 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-us__button:hover, .contact-us__button:focus {
+.booking__button:hover, .booking__button:focus {
   background: #ff6c00;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.contact-us__contacts {
+.contact-us .contacts {
   background-color: #191c26;
   max-width: 480px;
   background-repeat: no-repeat;
@@ -822,7 +822,7 @@ img {
   background-image: url(..//../images/contact-us/contact-us-mob-1x.png);
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .contact-us__contacts {
+  .contact-us .contacts {
     background-image: url(..//../images/contact-us/contact-us-mob-2x.png);
   }
 }

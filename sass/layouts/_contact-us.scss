@@ -12,12 +12,12 @@
   background-color: #191c26;
 }
 
-.contact-us .contact-us__booking {
+.contact-us .booking {
   padding-top: 84px;
   padding-bottom: 84px;
 }
 
-.contact-us__booking-title {
+.booking__title {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 36px;
@@ -62,7 +62,7 @@
   border-right: none;
 }
 
-.contact-us__button {
+.booking__button {
   display: block;
   width: 160px;
   height: 40px;
@@ -88,7 +88,7 @@
 
 // ----------------------------------------------------------------------------------------------------------------
 
-.contact-us__contacts {
+.contact-us .contacts {
   background-color: #191c26;
   max-width: 480px;
   background-repeat: no-repeat;

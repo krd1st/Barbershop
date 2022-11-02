@@ -1,1 +1,1 @@
-# barbershop_training
+# Barbershop
